@@ -1,0 +1,23 @@
+.card-container {
+  box-shadow: 0px 0px 15px -15px;
+  overflow: hidden;
+  align-items: center;
+}
+/* .card-container:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 15px 0px;
+} */
+.card {
+  width: 23.5vw;
+  gap: 20px;
+}
+.image-container img {
+  height: 200px;
+}
+img:hover {
+  width: 70vw;
+  height: 70vh;
+}
+.card-title:hover {
+  font-size: 30px;
+}

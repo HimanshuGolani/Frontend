@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  /*background-image: url(images/background.png);*/
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-box {
+  background: #70c2ed;
+  text-align: center;
+  padding: 40px 90px;
+  color: #fff;
+  position: relative;
+  border-radius: 20px;
+}
+.menu-icon {
+  width: 25px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+.profile-pic {
+  width: 210px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 6px;
+  margin-top: 10px;
+  position: relative;
+  right: 22px;
+}
+.setting-icon {
+  position: relative;
+  right: 60px;
+  bottom: 190px;
+  width: 36px;
+}
+
+.profile-bottom {
+  background: #fff;
+  color: #999;
+  padding: 60px 0;
+  margin-right: -80px;
+  margin-left: -80px;
+  margin-bottom: -30px;
+  border-radius: 20px;
+  margin-top: -15px;
+  bottom: 40px;
+}
+.profile-bottom img {
+  width: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+  position: relative;
+  bottom: 40px;
+}
+.profile-box button {
+  background: #fff;
+  color: #70c2ed;
+  border: none;
+  outline: none;
+  box-shadow: 0 5px 10px rgba(53, 29, 126, 0.5);
+  padding: 15px 60px;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-bottom: -50px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.profile-box h3 {
+  font-size: 22px;
+  margin-top: 20px;
+  font-weight: 500;
+}
+.social-media img {
+  width: 20px;
+  margin: 30px 5px;
+  cursor: pointer;
+}
+button {
+  position: relative;
+  bottom: -50px;
+}
+.one {
+  position: relative;
+  right: 130px;
+  font-size: 13px;
+  top: 10px;
+}
+.two {
+  position: relative;
+  right: 130px;
+  font-size: 15px;
+  top: 9px;
+  color: rgb(90, 78, 78);
+}
+.three {
+  position: relative;
+  left: 130px;
+  font-size: 13px;
+  bottom: 31px;
+  top: -23px;
+}
+.four {
+  position: relative;
+  bottom: 26px;
+  left: 105px;
+  color: rgb(90, 78, 78);
+}
+.five {
+  position: relative;
+  right: 130px;
+  font-size: 13px;
+  bottom: 15px;
+}
+.six {
+  position: relative;
+  right: 130px;
+  font-size: 15px;
+  bottom: 10px;
+  color: rgb(90, 78, 78);
+}
+.seven {
+  position: relative;
+  left: 130px;
+  font-size: 13px;
+  bottom: 46px;
+}
+.eight {
+  position: relative;
+  bottom: 43px;
+  left: 115px;
+  color: rgb(90, 78, 78);
+}
